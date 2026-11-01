@@ -1,0 +1,8 @@
+{"_ajuda":"Cadastre aqui os programas de afiliados aprovados. url null = o botão não aparece. O parâmetro ?ref= é acrescentado automaticamente.",
+"itens":[
+{"id":"esim-1","nome":"Parceiro de eSIM 1","categoria":"eSIM","url":null},
+{"id":"esim-2","nome":"Parceiro de eSIM 2","categoria":"eSIM","url":null},
+{"id":"wise-1","nome":"Parceiro de conta global 1","categoria":"Dinheiro","url":null},
+{"id":"wise-2","nome":"Parceiro de conta global 2","categoria":"Dinheiro","url":null},
+{"id":"hosp-1","nome":"Plataforma de hospedagem 1","categoria":"Hospedagem","url":null},
+{"id":"hosp-2","nome":"Plataforma de hospedagem 2","categoria":"Hospedagem","url":null}]}

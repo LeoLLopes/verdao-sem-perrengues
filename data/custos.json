@@ -1,0 +1,3 @@
+{"_ajuda":"Preencha cada valor (em R$, km, litros) com cotação pesquisada e a data em atualizado. null = ainda não preenchido.",
+"atualizado":null,"margemReserva":0.15,
+"premissas":{"passagemPorPessoa":null,"distanciaIdaKm":null,"consumoKmPorLitro":null,"precoLitro":null,"pedagiosIdaVolta":null,"estacionamentoDia":null,"diariaQuarto":null,"alimentacaoDiaPorPessoa":null,"deslocamentoLocalDia":null,"esimPorPessoa":null}}
