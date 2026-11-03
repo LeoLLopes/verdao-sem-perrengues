@@ -1,19 +1,6 @@
-"use client";
-import{useState,useEffect}from"react";import{useLocal}from"../../lib/storage";import{PERFIL_PADRAO,estimar}from"../../lib/plan";import custos from"../../data/custos.json";
-const R=v=>v.toLocaleString("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:0});
-export default function Custos(){
- const[perfil,,ok]=useLocal("verdao:perfil",null);const[f,setF]=useState(PERFIL_PADRAO);
- useEffect(()=>{if(perfil)setF(perfil)},[perfil]);
- const e=estimar(f,custos),set=(k,v)=>setF(x=>({...x,[k]:v}));
- if(!ok)return null;
- return(<><h1 className="h1">Quanto vou gastar</h1>
- <p className="mt-1 text-stone-600">Estimativa sem o ingresso. Ajuste e veja o resultado.</p>
- <div className="mt-4 grid grid-cols-3 gap-3">
- <label className="text-sm font-medium">Como<select className="campo" value={f.modo} onChange={x=>set("modo",x.target.value)}><option value="carro">Carro</option><option value="aviao">Avião</option></select></label>
- <label className="text-sm font-medium">Pessoas<input type="number" min="1" className="campo" value={f.pessoas} onChange={x=>set("pessoas",x.target.value)}/></label>
- <label className="text-sm font-medium">Dias<input type="number" min="1" className="campo" value={f.dias} onChange={x=>set("dias",x.target.value)}/></label></div>
- {e.faltam.length>0&&<p className="mt-4 rounded-lg bg-ouro/20 p-3 text-sm">Valores ainda não preenchidos em <code>data/custos.json</code>: {e.faltam.join(", ")}. O total abaixo está incompleto.</p>}
- <ul className="card mt-4 divide-y divide-linha">{e.linhas.map(([n,v])=>(<li key={n} className="flex justify-between py-2"><span>{n}</span><span className="font-semibold">{R(v)}</span></li>))}
- <li className="flex justify-between py-2"><span>Reserva ({custos.margemReserva*100}%)</span><span>{R(e.total-e.sub)}</span></li>
- <li className="flex justify-between pt-3 text-lg font-bold text-verde-escuro"><span>Total estimado</span><span>{R(e.total)}</span></li></ul>
- <p className="mt-2 text-xs text-stone-600">{custos.atualizado?"Premissas atualizadas em "+custos.atualizado+".":"Premissas sem data de atualização."} Valores são estimativas, não cotações.</p></>)}
+export const metadata={title:"Quanto vou gastar"};
+const ITENS=[["⛽","Combustível"],["🛣️","Pedágios"],["🏨","Hospedagem"],["🍽️","Alimentação"],["📶","Internet"]];
+export default function Custos(){return(<><h1 className="h1">Calculadora em atualização</h1>
+<p className="mt-2 text-stone-700">Estamos levantando os custos reais de combustível, pedágios, hospedagem, alimentação e deslocamentos para oferecer estimativas mais confiáveis.</p>
+<p className="mt-2 text-stone-700">Volte em breve para acompanhar as atualizações.</p>
+<ul className="mt-5 space-y-2">{ITENS.map(([i,n])=>(<li key={n} className="card flex items-center justify-between gap-2"><span className="font-semibold"><span aria-hidden className="mr-2 text-2xl">{i}</span>✅ {n}</span><span className="shrink-0 rounded-full bg-ouro/25 px-3 py-1 text-sm font-semibold">Em levantamento</span></li>))}</ul></>)}

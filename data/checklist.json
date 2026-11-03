@@ -1,23 +1,208 @@
 [
-{"id":"doc","categoria":"Documentos","titulo":"Confirmar se o seu documento de viagem é aceito e está na validade","quando":{},"prazo_dias":20,"fonte":null},
-{"id":"ingresso","categoria":"Documentos","titulo":"Comprar ingresso só pelos canais oficiais da Conmebol","quando":{"ingresso":false},"prazo_dias":25,"pendencia":true,"fonte":null},
-{"id":"seguro","categoria":"Documentos","titulo":"Contratar seguro viagem","quando":{},"prazo_dias":15,"pendencia":true,"afiliado":"seguro","fonte":null},
-{"id":"cnh","categoria":"Carro","titulo":"Conferir habilitação do motorista para dirigir no Uruguai","quando":{"modo":"carro"},"prazo_dias":20,"fonte":null},
-{"id":"docveic","categoria":"Carro","titulo":"Conferir documentos e autorizações do veículo","quando":{"modo":"carro"},"prazo_dias":20,"fonte":null},
-{"id":"seguroveic","categoria":"Carro","titulo":"Verificar o seguro exigido para circular com o veículo","quando":{"modo":"carro"},"prazo_dias":15,"afiliado":"seguro","fonte":null},
-{"id":"pedagio","categoria":"Carro","titulo":"Entender como pagar pedágios e em qual moeda","quando":{"modo":"carro"},"prazo_dias":10,"fonte":null},
-{"id":"rota","categoria":"Carro","titulo":"Planejar rota, paradas e combustível","quando":{"modo":"carro"},"prazo_dias":10,"fonte":null},
-{"id":"estac","categoria":"Carro","titulo":"Descobrir onde estacionar perto da hospedagem","quando":{"modo":"carro"},"prazo_dias":7,"fonte":null},
-{"id":"passagem","categoria":"Avião","titulo":"Comprar passagem de ida e volta","quando":{"modo":"aviao"},"prazo_dias":30,"pendencia":true,"afiliado":"passagem","fonte":null},
-{"id":"transfer","categoria":"Avião","titulo":"Combinar o transporte do aeroporto até a hospedagem","quando":{"modo":"aviao"},"prazo_dias":7,"fonte":null},
-{"id":"hosp","categoria":"Hospedagem","titulo":"Reservar hospedagem (prefira cancelamento gratuito)","quando":{"hospedagem":"nao"},"prazo_dias":30,"pendencia":true,"afiliado":"hospedagem","fonte":null},
-{"id":"hosp2","categoria":"Hospedagem","titulo":"Salvar endereço e contato da hospedagem offline","quando":{},"prazo_dias":3,"fonte":null},
-{"id":"wise","categoria":"Dinheiro","titulo":"Abrir conta global (Wise ou similar)","quando":{"wise":false},"prazo_dias":14,"pendencia":true,"afiliado":"cambio","fonte":null},
-{"id":"cartao2","categoria":"Dinheiro","titulo":"Levar um segundo cartão como reserva","quando":{},"prazo_dias":10,"fonte":null},
-{"id":"banco","categoria":"Dinheiro","titulo":"Avisar o banco e liberar o limite internacional","quando":{},"prazo_dias":5,"fonte":null},
-{"id":"pesos","categoria":"Dinheiro","titulo":"Separar um pouco de dinheiro vivo, respeitando o limite da fronteira","quando":{},"prazo_dias":7,"fonte":null},
-{"id":"esim","categoria":"Internet","titulo":"Contratar um eSIM ou plano internacional","quando":{"esim":false},"prazo_dias":7,"pendencia":true,"afiliado":"esim","fonte":null},
-{"id":"esim2","categoria":"Internet","titulo":"Instalar o eSIM e testar antes de embarcar","quando":{"esim":true},"prazo_dias":3,"fonte":null},
-{"id":"canal","categoria":"Dia do jogo","titulo":"Entrar no canal de avisos","quando":{},"prazo_dias":28,"fonte":null},
-{"id":"offline","categoria":"Dia do jogo","titulo":"Salvar mapas e a rota até o estádio offline","quando":{},"prazo_dias":2,"fonte":null}
+ {
+  "id": "doc",
+  "categoria": "Documentos",
+  "titulo": "Confirmar se o seu documento de viagem é aceito e está na validade",
+  "quando": {},
+  "prazo_dias": 20,
+  "fonte": null
+ },
+ {
+  "id": "ingresso",
+  "categoria": "Documentos",
+  "titulo": "Comprar ingresso só pelos canais oficiais da Conmebol (vendas de 06/11 a 10/11)",
+  "quando": {
+   "ingresso": false
+  },
+  "prazo_dias": 18,
+  "pendencia": true,
+  "fonte": null
+ },
+ {
+  "id": "seguro",
+  "categoria": "Documentos",
+  "titulo": "Contratar seguro viagem",
+  "quando": {},
+  "prazo_dias": 15,
+  "pendencia": true,
+  "afiliado": "seguro",
+  "fonte": null
+ },
+ {
+  "id": "cnh",
+  "categoria": "Carro",
+  "titulo": "Conferir habilitação do motorista para dirigir no Uruguai",
+  "quando": {
+   "modo": "carro"
+  },
+  "prazo_dias": 20,
+  "fonte": null
+ },
+ {
+  "id": "docveic",
+  "categoria": "Carro",
+  "titulo": "Conferir documentos e autorizações do veículo",
+  "quando": {
+   "modo": "carro"
+  },
+  "prazo_dias": 20,
+  "fonte": null
+ },
+ {
+  "id": "seguroveic",
+  "categoria": "Carro",
+  "titulo": "Verificar o seguro exigido para circular com o veículo",
+  "quando": {
+   "modo": "carro"
+  },
+  "prazo_dias": 15,
+  "afiliado": "seguro",
+  "fonte": null
+ },
+ {
+  "id": "pedagio",
+  "categoria": "Carro",
+  "titulo": "Entender como pagar pedágios e em qual moeda",
+  "quando": {
+   "modo": "carro"
+  },
+  "prazo_dias": 10,
+  "fonte": null
+ },
+ {
+  "id": "rota",
+  "categoria": "Carro",
+  "titulo": "Planejar rota, paradas e combustível",
+  "quando": {
+   "modo": "carro"
+  },
+  "prazo_dias": 10,
+  "fonte": null
+ },
+ {
+  "id": "estac",
+  "categoria": "Carro",
+  "titulo": "Descobrir onde estacionar perto da hospedagem",
+  "quando": {
+   "modo": "carro"
+  },
+  "prazo_dias": 7,
+  "fonte": null
+ },
+ {
+  "id": "passagem",
+  "categoria": "Avião",
+  "titulo": "Comprar passagem de ida e volta",
+  "quando": {
+   "modo": "aviao"
+  },
+  "prazo_dias": 21,
+  "pendencia": true,
+  "afiliado": "passagem",
+  "fonte": null
+ },
+ {
+  "id": "transfer",
+  "categoria": "Avião",
+  "titulo": "Combinar o transporte do aeroporto até a hospedagem",
+  "quando": {
+   "modo": "aviao"
+  },
+  "prazo_dias": 7,
+  "fonte": null
+ },
+ {
+  "id": "hosp",
+  "categoria": "Hospedagem",
+  "titulo": "Reservar hospedagem (prefira cancelamento gratuito)",
+  "quando": {
+   "hospedagem": "nao"
+  },
+  "prazo_dias": 20,
+  "pendencia": true,
+  "afiliado": "hospedagem",
+  "fonte": null
+ },
+ {
+  "id": "hosp2",
+  "categoria": "Hospedagem",
+  "titulo": "Salvar endereço e contato da hospedagem offline",
+  "quando": {},
+  "prazo_dias": 3,
+  "fonte": null
+ },
+ {
+  "id": "wise",
+  "categoria": "Dinheiro",
+  "titulo": "Abrir conta internacional (Wise ou similar)",
+  "quando": {
+   "wise": false
+  },
+  "prazo_dias": 14,
+  "pendencia": true,
+  "afiliado": "cambio",
+  "fonte": null
+ },
+ {
+  "id": "cartao2",
+  "categoria": "Dinheiro",
+  "titulo": "Levar um segundo cartão como reserva",
+  "quando": {},
+  "prazo_dias": 10,
+  "fonte": null
+ },
+ {
+  "id": "banco",
+  "categoria": "Dinheiro",
+  "titulo": "Avisar o banco e liberar o limite internacional",
+  "quando": {},
+  "prazo_dias": 5,
+  "fonte": null
+ },
+ {
+  "id": "pesos",
+  "categoria": "Dinheiro",
+  "titulo": "Separar um pouco de dinheiro vivo, respeitando o limite da fronteira",
+  "quando": {},
+  "prazo_dias": 7,
+  "fonte": null
+ },
+ {
+  "id": "esim",
+  "categoria": "Internet",
+  "titulo": "Contratar um eSIM ou plano internacional",
+  "quando": {
+   "esim": false
+  },
+  "prazo_dias": 7,
+  "pendencia": true,
+  "afiliado": "esim",
+  "fonte": null
+ },
+ {
+  "id": "esim2",
+  "categoria": "Internet",
+  "titulo": "Instalar o eSIM e testar antes de embarcar",
+  "quando": {
+   "esim": true
+  },
+  "prazo_dias": 3,
+  "fonte": null
+ },
+ {
+  "id": "canal",
+  "categoria": "Dia do jogo",
+  "titulo": "Entrar no canal de avisos",
+  "quando": {},
+  "prazo_dias": 23,
+  "fonte": null
+ },
+ {
+  "id": "offline",
+  "categoria": "Dia do jogo",
+  "titulo": "Salvar mapas e a rota até o estádio offline",
+  "quando": {},
+  "prazo_dias": 2,
+  "fonte": null
+ }
 ]

@@ -1,5 +1,5 @@
 "use client";
-import Link from"next/link";import Progress from"../../components/Progress";import ResolverCard from"../../components/ResolverCard";import{PEND}from"../../lib/partners";import{useLocal}from"../../lib/storage";import{buildPlan,limite,fmt}from"../../lib/plan";
+import Link from"next/link";import Progress from"../../components/Progress";import site from"../../data/site.json";import ContaInternacional from"../../components/ContaInternacional";import ResolverCard from"../../components/ResolverCard";import{PEND}from"../../lib/partners";import{useLocal}from"../../lib/storage";import{buildPlan,limite,fmt}from"../../lib/plan";
 export default function Checklist(){
  const[p,,ok]=useLocal("verdao:perfil",null),[feitos,setFeitos]=useLocal("verdao:feitos",{});
  if(!ok)return null;
@@ -12,5 +12,5 @@ export default function Checklist(){
  {itens.filter(i=>i.categoria===c).sort((a,b)=>b.prazo_dias-a.prazo_dias).map(i=>(<li key={i.id}><div className="card flex gap-3">
  <input id={i.id} type="checkbox" className="mt-1 h-6 w-6 accent-verde" checked={!!feitos[i.id]} onChange={e=>setFeitos({...feitos,[i.id]:e.target.checked})}/>
  <label htmlFor={i.id} className="flex-1"><span className={feitos[i.id]?"line-through text-stone-500":""}>{i.titulo}</span>
- <span className="block text-sm text-stone-600">até {fmt(limite(i))}{i.fonte?<> · <a className="underline" href={i.fonte}>fonte oficial</a></>:" · fonte a verificar"}</span></label></div>{PEND[i.id]&&<div className="mt-2"><ResolverCard id={i.id} origem="checklist" feito={!!feitos[i.id]} onFeito={v=>setFeitos({...feitos,[i.id]:v})}/></div>}</li>))}</ul></section>))}
+ <span className="block text-sm text-stone-600">até {fmt(limite(i))}{i.fonte?<> · <a className="underline" href={i.fonte}>fonte oficial</a></>:""}</span></label></div>{i.id==="canal"&&!feitos[i.id]&&<div className="mt-2"><a className="btn w-full" href={site.canalWhatsApp} target="_blank" rel="noopener noreferrer">👉 Entrar no Canal do WhatsApp</a></div>}{i.id==="wise"&&!feitos[i.id]&&<div className="mt-2"><ContaInternacional/></div>}{PEND[i.id]&&<div className="mt-2"><ResolverCard id={i.id} origem="checklist" feito={!!feitos[i.id]} onFeito={v=>setFeitos({...feitos,[i.id]:v})}/></div>}</li>))}</ul></section>))}
  <button className="btn-2 mt-6" onClick={()=>setFeitos({})}>Limpar marcações</button></>)}

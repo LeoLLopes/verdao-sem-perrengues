@@ -1,131 +1,517 @@
-{"_ajuda":"c=categoria p=pergunta rc=resposta curta r=resposta completa f=chave em fontes pop=1 popular g=1 dica geral (sem aviso de validação). Sem g, a página mostra o aviso para validar. Cole o link oficial em fontes.*.url e a data de verificação na própria resposta.",
-"fontes":{
-"mig":{"nome":"Dirección Nacional de Migración (Uruguai)","url":null},
-"pf":{"nome":"Polícia Federal (passaporte e viagem de menores)","url":null},
-"consul":{"nome":"Consulado-Geral do Brasil em Montevidéu / Portal Consular (Itamaraty)","url":null},
-"conmebol":{"nome":"Conmebol (site e app oficiais)","url":null},
-"estadio":{"nome":"Conmebol e administração do Estádio Centenário","url":null},
-"rf":{"nome":"Receita Federal do Brasil","url":null},
-"bcb":{"nome":"Banco Central do Brasil","url":null},
-"bcu":{"nome":"Banco Central del Uruguay","url":null},
-"dgi":{"nome":"Dirección General Impositiva (Uruguai)","url":null},
-"banco":{"nome":"Seu banco ou emissor do cartão","url":null},
-"wise":{"nome":"Central de ajuda da Wise","url":null},
-"ant":{"nome":"Anatel e sua operadora","url":null},
-"op":{"nome":"Sua operadora e o fabricante do celular","url":null},
-"esim":{"nome":"Site oficial do provedor de eSIM","url":null},
-"cia":{"nome":"Sua companhia aérea e o aeroporto","url":null},
-"anac":{"nome":"ANAC","url":null},
-"emp":{"nome":"Empresa de ônibus contratada","url":null},
-"antt":{"nome":"ANTT e site da empresa de ônibus","url":null},
-"prf":{"nome":"Polícia Rodoviária Federal","url":null},
-"seg":{"nome":"Sua seguradora e a SUSEP","url":null},
-"mtop":{"nome":"Órgãos de trânsito e transporte do Uruguai (ex.: MTOP)","url":null},
-"aduana":{"nome":"Dirección Nacional de Aduanas (Uruguai)","url":null},
-"turismo":{"nome":"Ministerio de Turismo (Uruguai)","url":null},
-"interv":{"nome":"Intendencia de Montevideo","url":null},
-"policia":{"nome":"Ministerio del Interior / Polícia do Uruguai","url":null},
-"plat":{"nome":"Termos e suporte da plataforma de reserva","url":null},
-"senacon":{"nome":"Senacon / Procon","url":null}},
-"itens":[
-{"c":"Documentos","p":"Que documento posso usar para entrar no Uruguai?","rc":"Valide qual documento é aceito de brasileiros.","r":"A regra depende do tipo e da validade do documento. Consulte a fonte oficial antes de comprar passagem e anote a data da conferência.","f":"mig","pop":1},
-{"c":"Documentos","p":"Meu documento precisa ter validade mínima?","rc":"Pode haver exigência. Confira.","r":"Alguns países exigem validade mínima. Valide na migração uruguaia e com a companhia ou empresa de ônibus.","f":"mig"},
-{"c":"Documentos","p":"Documento antigo ou danificado vale?","rc":"Não arrisque: valide.","r":"Documento rasgado, antigo ou com foto ilegível pode ser recusado no embarque ou na fronteira. Na dúvida, renove com antecedência.","f":"mig"},
-{"c":"Documentos","p":"Preciso de passaporte?","rc":"Depende do documento aceito. Valide.","r":"Confirme se o passaporte é obrigatório ou opcional no seu caso. Se for emitir, valide os prazos da Polícia Federal, que variam.","f":"pf"},
-{"c":"Documentos","p":"Menor de idade pode viajar?","rc":"Há regras específicas. Valide.","r":"Menores costumam ter exigência de autorização e acompanhante. Confirme antes de comprar a viagem e leve os documentos exigidos.","f":"pf"},
-{"c":"Documentos","p":"Preciso de visto?","rc":"Não presuma. Valide.","r":"Consulte o governo uruguaio e o Portal Consular do Itamaraty para saber se há exigência para o seu documento e finalidade.","f":"mig"},
-{"c":"Documentos","p":"Preciso de comprovantes de reserva e retorno?","rc":"Leve por precaução.","r":"Podem pedir comprovante de hospedagem, retorno ou ingresso. A exigência deve ser validada, mas ter tudo salvo offline evita problemas.","f":"mig"},
-{"c":"Documentos","p":"Devo levar cópias dos documentos?","rc":"Sim, digitais e impressas.","r":"Guarde cópia offline e impressa de documento, ingresso, reservas e seguro, separada dos originais. Ajuda em caso de perda ou furto.","f":"consul","g":1},
-{"c":"Ônibus","p":"Há ônibus do Brasil até Montevidéu?","rc":"Consulte empresas autorizadas.","r":"Verifique quais empresas operam a rota, horários, paradas e duração. Prefira empresas regulares e valide a autorização na ANTT.","f":"antt","pop":1},
-{"c":"Ônibus","p":"Como comprar passagem de ônibus com segurança?","rc":"Só em canais oficiais.","r":"Compre no site, app ou balcão da empresa, guarde comprovantes e desconfie de preço muito abaixo do mercado ou de venda por rede social.","f":"antt","g":1},
-{"c":"Ônibus","p":"Que documento mostro no embarque e na fronteira?","rc":"O original, à mão. Valide.","r":"Confirme com a empresa e na fonte oficial qual documento vale. Mantenha o original acessível, não na bagagem despachada.","f":"mig"},
-{"c":"Ônibus","p":"Como funciona a fronteira de ônibus?","rc":"Há controles. Valide o procedimento.","r":"Normalmente há paradas para controle. Pergunte à empresa como é o procedimento, o tempo estimado e se há regras sobre bagagem.","f":"emp"},
-{"c":"Ônibus","p":"Excursão organizada é confiável?","rc":"Verifique antes de pagar.","r":"Confira CNPJ, autorização de transporte, avaliações, o que está incluso, política de cancelamento e contato de emergência.","f":"antt","g":1},
-{"c":"Ônibus","p":"Vou chegar descansado para o jogo?","rc":"Planeje a chegada com folga.","r":"Viagens longas cansam. Se puder, chegue um dia antes e evite que o desembarque coincida com a entrada no estádio.","f":"emp","g":1},
-{"c":"Avião","p":"Para qual aeroporto devo voar?","rc":"Compare as opções.","r":"Compare voos diretos, conexões e preços, considerando o deslocamento até a hospedagem e o estádio. Confirme o aeroporto na reserva.","f":"cia","g":1},
-{"c":"Avião","p":"Quando comprar a passagem?","rc":"O quanto antes.","r":"A procura sobe perto de grandes jogos e os preços podem aumentar. Compare, mas não deixe para a última semana.","f":"cia","g":1,"pop":1},
-{"c":"Avião","p":"Qual é a regra de bagagem?","rc":"Depende da companhia.","r":"Limites de peso, bagagem de mão e itens proibidos variam. Confira na sua reserva e no site da companhia antes de arrumar a mala.","f":"anac"},
-{"c":"Avião","p":"Posso levar bandeira ou faixa no avião?","rc":"Valide as regras do aeroporto.","r":"Itens de torcida podem ser inspecionados. Confirme regras de bagagem da companhia e do aeroporto.","f":"cia"},
-{"c":"Avião","p":"Como chegar do aeroporto à hospedagem?","rc":"Combine antes.","r":"Defina transfer, táxi ou aplicativo antes de embarcar e salve o endereço offline. Valide as opções oficiais do aeroporto.","f":"cia"},
-{"c":"Avião","p":"E se meu voo atrasar ou for cancelado?","rc":"Tenha plano B e seguro.","r":"Conheça seus direitos na ANAC, guarde comprovantes e evite voo que chegue colado ao horário do jogo.","f":"anac"},
-{"c":"Carro","p":"Posso ir de carro até Montevidéu?","rc":"Possível, mas valide as exigências.","r":"Confirme documentos do motorista e do veículo, seguro e procedimento de fronteira. Veja também as orientações da PRF.","f":"prf","pop":1},
-{"c":"Carro","p":"Quais documentos do motorista preciso?","rc":"Valide a CNH aceita.","r":"Confira se a CNH brasileira é aceita no Uruguai e se há exigência de documento adicional. Leve o original.","f":"mtop"},
-{"c":"Carro","p":"Quais documentos do veículo preciso?","rc":"Valide a lista.","r":"Confirme o que deve ser apresentado e se há autorizações. Leve originais e cópias.","f":"aduana"},
-{"c":"Carro","p":"Preciso de autorização para sair com o carro?","rc":"Pode ser exigida. Valide.","r":"Carro financiado, alugado ou de terceiros pode exigir autorização específica. Valide com a fonte oficial e com o banco ou locadora.","f":"prf"},
-{"c":"Carro","p":"Preciso de seguro específico?","rc":"Valide o seguro exigido.","r":"Confirme se há seguro obrigatório para circular no Uruguai e pergunte à sua seguradora sobre cobertura internacional.","f":"seg"},
-{"c":"Carro","p":"Como funcionam os pedágios?","rc":"Valide forma e moeda de pagamento.","r":"Verifique como pagar, em qual moeda e se aceita cartão. Leve uma forma alternativa de pagamento.","f":"mtop"},
-{"c":"Carro","p":"Onde abastecer e como pagar?","rc":"Planeje paradas e pagamento.","r":"Confira as formas de pagamento aceitas e abasteça antes de trechos longos. Não presuma que seu cartão passa em todos os postos.","f":"banco","g":1},
-{"c":"Carro","p":"Onde estacionar em Montevidéu?","rc":"Confirme com a hospedagem.","r":"Pergunte se há vaga, pesquise estacionamentos pagos e valide as regras de estacionamento da cidade. Não deixe objetos à vista.","f":"interv"},
-{"c":"Carro","p":"O que fazer em caso de acidente ou pane?","rc":"Tenha contatos antes de sair.","r":"Salve telefones de emergência e da seguradora e confirme o que o seu seguro cobre no Uruguai.","f":"seg"},
-{"c":"Dinheiro","p":"Qual é a moeda do Uruguai?","rc":"Peso uruguaio.","r":"O Uruguai usa o peso uruguaio (UYU). Valide se outras moedas são aceitas em locais turísticos antes de contar com isso.","f":"bcu","g":1},
-{"c":"Dinheiro","p":"Preciso levar dinheiro vivo?","rc":"Leve pouco, como reserva.","r":"Tenha algum valor em espécie para imprevistos, respeitando o limite de entrada e saída. Valide o limite na fonte oficial.","f":"rf","pop":1},
-{"c":"Dinheiro","p":"Vale trocar dinheiro antes de viajar?","rc":"Compare o custo total.","r":"Compare cotação, taxas e IOF entre banco, casa de câmbio e conta global. Evite câmbio informal.","f":"bcb"},
-{"c":"Dinheiro","p":"O que é IOF?","rc":"Imposto sobre operações no exterior.","r":"Na compra internacional com cartão ou câmbio pode incidir IOF. Confirme a alíquota atual na Receita Federal ou com seu banco.","f":"rf"},
-{"c":"Dinheiro","p":"O que é IVA e posso ter devolução?","rc":"Imposto sobre consumo. Valide.","r":"O Uruguai cobra IVA sobre consumo. Valide na DGI se existe desconto ou devolução para turistas.","f":"dgi"},
-{"c":"Dinheiro","p":"Posso sacar dinheiro em caixa eletrônico?","rc":"Depende do cartão. Confira tarifas.","r":"Consulte seu banco ou conta global sobre tarifa, limite e câmbio nos saques no exterior. Prefira caixas dentro de agências.","f":"banco"},
-{"c":"Dinheiro","p":"Como evitar câmbio desfavorável?","rc":"Peça o valor final antes.","r":"Pergunte o valor final em reais antes de pagar e valide com o emissor qual forma de conversão costuma custar menos.","f":"banco"},
-{"c":"Wise","p":"O que é o Wise?","rc":"Conta global multimoeda.","r":"Serviço financeiro para pagar e converter moedas. Verifique tarifas, limites e disponibilidade no site oficial.","f":"wise","g":1},
-{"c":"Wise","p":"Como abrir conta Wise?","rc":"Com antecedência.","r":"Abra pelo app ou site oficial. Pode haver verificação de identidade, então não deixe para a véspera.","f":"wise"},
-{"c":"Wise","p":"Posso usar o Wise no Uruguai?","rc":"Valide no app.","r":"Confirme no app a aceitação do cartão, a moeda disponível e as tarifas de uso e de saques no Uruguai.","f":"wise","pop":1},
-{"c":"Wise","p":"Como abastecer o Wise em reais?","rc":"Veja os métodos no app.","r":"Confira métodos e prazos de recarga e simule o custo total antes de converter.","f":"wise"},
-{"c":"Wise","p":"O Wise é a única opção?","rc":"Não. Compare.","r":"Compare com bancos digitais e cartões internacionais pelo custo total, não pela propaganda.","f":"bcb","g":1},
-{"c":"Cartões","p":"Meu cartão funciona no Uruguai?","rc":"Confirme com seu banco.","r":"Valide se o cartão está habilitado para uso internacional e se o limite é diferente. Teste antes da viagem.","f":"banco","pop":1},
-{"c":"Cartões","p":"Devo avisar o banco?","rc":"Vale a pena.","r":"Alguns bancos pedem aviso ou liberação internacional. Confira o procedimento no app.","f":"banco"},
-{"c":"Cartões","p":"Crédito ou débito?","rc":"Compare as taxas.","r":"Confira com o emissor tarifas, IOF e cotação em cada modalidade.","f":"banco"},
-{"c":"Cartões","p":"Pagamento por aproximação funciona?","rc":"Valide com o emissor.","r":"Teste a aproximação antes de viajar e leve o cartão físico como alternativa.","f":"banco"},
-{"c":"Cartões","p":"O que fazer se perder o cartão?","rc":"Bloqueie imediatamente.","r":"Salve o telefone de bloqueio no exterior e guarde um segundo cartão separado do principal.","f":"banco","g":1},
-{"c":"Cartões","p":"Pago em reais ou em peso?","rc":"Compare antes de aceitar.","r":"Se a maquininha oferecer cobrar em reais, pergunte ao emissor qual opção costuma sair mais cara e valide antes de aceitar.","f":"banco"},
-{"c":"Cartões","p":"Como evitar fraude no cartão?","rc":"Cuide dos seus dados.","r":"Não entregue o cartão fora da sua vista, ative notificações e confira a fatura.","f":"banco","g":1},
-{"c":"Hospedagem","p":"Onde ficar em Montevidéu?","rc":"Priorize localização e transporte.","r":"Compare bairros por proximidade do estádio, transporte e movimentação noturna, usando fontes confiáveis e avaliações recentes.","f":"turismo","g":1,"pop":1},
-{"c":"Hospedagem","p":"Hotel, Airbnb ou hostel?","rc":"Compare critérios.","r":"Compare preço, cancelamento, localização, regras de check-in e avaliações recentes.","f":"plat","g":1},
-{"c":"Hospedagem","p":"Vale reservar com cancelamento gratuito?","rc":"Sempre que possível.","r":"Mudanças de horário e de planos acontecem. O cancelamento gratuito reduz o risco.","f":"plat","g":1},
-{"c":"Hospedagem","p":"Como evitar golpes de reserva?","rc":"Pague pela plataforma.","r":"Nunca pague por fora, por link recebido em mensagem ou por transferência a desconhecidos.","f":"plat","g":1},
-{"c":"Hospedagem","p":"Quando reservar?","rc":"O quanto antes.","r":"A procura sobe perto da final e as boas opções esgotam primeiro.","f":"plat","g":1},
-{"c":"Hospedagem","p":"Preciso de documento no check-in?","rc":"Em geral sim. Valide.","r":"Hospedagens costumam solicitar documento e dados. Confirme com o anfitrião e leve o original.","f":"turismo"},
-{"c":"Hospedagem","p":"A hospedagem tem estacionamento?","rc":"Pergunte antes de reservar.","r":"Pergunte sobre vaga, custo e segurança e peça a confirmação por escrito.","f":"plat","g":1},
-{"c":"eSIM","p":"O que é eSIM?","rc":"Chip digital no celular.","r":"É um perfil instalado no aparelho, sem chip físico.","f":"esim","g":1},
-{"c":"eSIM","p":"Meu celular aceita eSIM?","rc":"Confira no aparelho.","r":"Veja no manual ou no site do fabricante. O aparelho também precisa estar desbloqueado para outras operadoras.","f":"op"},
-{"c":"eSIM","p":"Quando instalar o eSIM?","rc":"Antes de embarcar.","r":"Instale com Wi-Fi, teste antes de sair de casa e ative ao chegar, seguindo as instruções do provedor.","f":"esim","pop":1},
-{"c":"eSIM","p":"Posso manter meu número do Brasil?","rc":"Depende do plano.","r":"O eSIM de dados pode funcionar junto com a linha brasileira. Valide com o provedor e com a operadora.","f":"op"},
-{"c":"eSIM","p":"eSIM ou roaming?","rc":"Compare custo e dados.","r":"Compare preço, franquia de dados e cobertura. Valide as tarifas de roaming com a operadora.","f":"op"},
-{"c":"Internet","p":"Vou ter internet no estádio?","rc":"Não conte com Wi-Fi.","r":"A conexão pode oscilar em locais lotados. Baixe mapas e ingressos offline e combine um ponto de encontro.","f":"estadio","g":1},
-{"c":"Internet","p":"Como evitar surpresa na conta de roaming?","rc":"Desative o roaming.","r":"Desligue dados móveis e roaming se não for usar e confirme as tarifas com a operadora.","f":"ant"},
-{"c":"Internet","p":"Posso usar Wi-Fi público?","rc":"Com cuidado.","r":"Evite acessar banco ou digitar senhas em Wi-Fi público. Prefira dados móveis para operações financeiras.","f":"ant","g":1},
-{"c":"Internet","p":"E se eu ficar sem sinal?","rc":"Baixe mapas offline.","r":"Baixe o mapa da cidade e a rota até o estádio antes de sair e salve o contato da hospedagem.","f":"interv","g":1},
-{"c":"Estádio Centenário","p":"Onde fica o Estádio Centenário?","rc":"Em Montevidéu.","r":"Salve o endereço no mapa offline e planeje a rota de ida e volta.","f":"estadio","g":1},
-{"c":"Estádio Centenário","p":"Como comprar ingresso?","rc":"Só por canais oficiais da Conmebol.","r":"Evite revendedores e ofertas por mensagem. Valide datas e regras de venda no site oficial.","f":"conmebol","pop":1},
-{"c":"Estádio Centenário","p":"Como saber se o ingresso é legítimo?","rc":"Confira na fonte oficial.","r":"Confirme com a Conmebol o formato válido do ingresso e desconfie de pedido de pagamento por fora.","f":"conmebol"},
-{"c":"Estádio Centenário","p":"Posso trocar ou revender ingresso?","rc":"Valide as regras.","r":"Confira as regras de transferência e revenda, que podem ser restritas.","f":"conmebol"},
-{"c":"Estádio Centenário","p":"O que pode entrar no estádio?","rc":"Siga a lista oficial.","r":"Confira itens permitidos e proibidos, tamanho de bolsas e regras sobre bandeiras. Leve só o necessário.","f":"conmebol","pop":1},
-{"c":"Estádio Centenário","p":"Qual é o setor e o portão do meu ingresso?","rc":"Valide com a organização.","r":"Confirme com seu clube e com a Conmebol qual é o setor do seu ingresso e o portão de acesso.","f":"conmebol"},
-{"c":"Estádio Centenário","p":"Há acessibilidade no estádio?","rc":"Valide antes com a organização.","r":"Pessoas com deficiência devem confirmar acesso, assentos e procedimento com a Conmebol com antecedência.","f":"conmebol"},
-{"c":"Estádio Centenário","p":"Posso ir de carro ao estádio?","rc":"Valide as restrições.","r":"Verifique bloqueios de trânsito e estacionamento no entorno. Aplicativo ou transporte organizado pode ser mais prático.","f":"interv"},
-{"c":"Jogo","p":"Qual é o horário da final?","rc":"Valide com a Conmebol.","r":"O horário pode ser atualizado. Confirme sempre no site oficial e no nosso canal de avisos.","f":"conmebol","pop":1},
-{"c":"Jogo","p":"Com quanta antecedência devo chegar?","rc":"Com folga.","r":"Filas e revistas demoram. Combine o horário com o grupo e confirme a abertura dos portões.","f":"conmebol"},
-{"c":"Jogo","p":"Onde assistir se não tenho ingresso?","rc":"Valide espaços oficiais.","r":"Procure transmissões oficiais ou locais organizados e evite aglomerações sem estrutura.","f":"conmebol"},
-{"c":"Jogo","p":"Onde a torcida se encontra?","rc":"Siga o canal e fontes oficiais.","r":"Pontos de encontro podem mudar. Confirme em fontes oficiais antes de ir.","f":"interv"},
-{"c":"Jogo","p":"Como combinar com o grupo?","rc":"Defina ponto e horário.","r":"Combine um ponto fixo, o horário de saída e um plano caso alguém se perca sem sinal.","f":"interv","g":1},
-{"c":"Jogo","p":"Posso sair e voltar ao estádio?","rc":"Valide a regra.","r":"Confirme se a reentrada é permitida antes de sair.","f":"conmebol"},
-{"c":"Jogo","p":"O que levar no dia do jogo?","rc":"O essencial.","r":"Ingresso, documento, cartão, celular carregado e pouco dinheiro. Valide os itens permitidos.","f":"conmebol"},
-{"c":"Segurança","p":"Montevidéu é segura para torcedores?","rc":"Cuidados normais de cidade grande.","r":"Não exiba objetos de valor, evite áreas isoladas à noite e consulte os avisos oficiais de segurança.","f":"consul","pop":1},
-{"c":"Segurança","p":"Quais telefones de emergência salvar?","rc":"Valide os números oficiais.","r":"Salve os números de emergência do Uruguai e o do Consulado do Brasil, validando em fonte oficial.","f":"consul"},
-{"c":"Segurança","p":"Como evitar furtos?","rc":"Mochila na frente.","r":"Mantenha o celular fora de vista, guarde documentos separados e fique atento em locais cheios.","f":"policia","g":1},
-{"c":"Segurança","p":"O que fazer se perder o documento?","rc":"Procure a polícia e o consulado.","r":"Registre ocorrência e contate o Consulado do Brasil. Cópias digitais agilizam o processo.","f":"consul"},
-{"c":"Segurança","p":"Como lidar com torcedores rivais?","rc":"Evite confronto.","r":"Não provoque, ande em grupo e siga as orientações da organização e das autoridades.","f":"policia","g":1},
-{"c":"Segurança","p":"Posso beber em público?","rc":"Valide as regras locais.","r":"Regras sobre álcool em locais públicos e no estádio variam. Confirme com as autoridades locais.","f":"interv"},
-{"c":"Segurança","p":"Como voltar com segurança à noite?","rc":"Defina o transporte antes.","r":"Use aplicativo ou táxi oficial, saia em grupo e evite caminhar sozinho.","f":"policia","g":1},
-{"c":"Segurança","p":"Preciso de seguro viagem?","rc":"Vale considerar.","r":"Compare coberturas médica, de bagagem e de cancelamento e leia as exclusões antes de contratar.","f":"seg","g":1},
-{"c":"Compras","p":"Posso fazer compras no Uruguai?","rc":"Pode, mas valide os limites de volta.","r":"Compras no exterior seguem regras de cota e declaração ao voltar ao Brasil. Valide na Receita Federal.","f":"rf","pop":1},
-{"c":"Compras","p":"Há desconto para turistas?","rc":"Valide.","r":"Algumas lojas oferecem benefícios a turistas. Pergunte como funcionam e valide na DGI.","f":"dgi"},
-{"c":"Compras","p":"Como pagar compras sem sufoco?","rc":"Tenha dois meios de pagamento.","r":"Mantenha dois meios de pagamento e guarde as notas fiscais.","f":"banco","g":1},
-{"c":"Compras","p":"Como evitar produtos falsificados?","rc":"Compre em lojas confiáveis.","r":"Desconfie de preço muito baixo, guarde a nota fiscal e prefira lojas conhecidas.","f":"senacon","g":1},
-{"c":"Compras","p":"Posso trazer comidas e bebidas?","rc":"Valide.","r":"Há regras sanitárias e de cota para alimentos e bebidas. Valide na Receita Federal.","f":"rf"},
-{"c":"Volta ao Brasil","p":"Qual é o limite de compras sem imposto?","rc":"Valide a cota atual.","r":"Os limites mudam. Consulte a Receita Federal antes de comprar e guarde as notas.","f":"rf","pop":1},
-{"c":"Volta ao Brasil","p":"Preciso declarar produtos?","rc":"Valide.","r":"Acima de certos limites ou em situações específicas é preciso declarar. Consulte a Receita Federal.","f":"rf"},
-{"c":"Volta ao Brasil","p":"Posso trazer dinheiro em espécie?","rc":"Valide o limite.","r":"Há limite de dinheiro que pode circular sem declaração. Confirme os valores atuais na Receita Federal.","f":"rf"},
-{"c":"Volta ao Brasil","p":"Posso trazer eletrônicos?","rc":"Valide.","r":"Eletrônicos podem ter regras próprias. Consulte a Receita Federal antes de comprar.","f":"rf"},
-{"c":"Volta ao Brasil","p":"Como voltar de carro com segurança?","rc":"Descanse antes.","r":"Evite dirigir cansado depois do jogo e planeje as paradas.","f":"prf","g":1},
-{"c":"Volta ao Brasil","p":"E se eu perder o voo ou ônibus de volta?","rc":"Contate a empresa na hora.","r":"Guarde comprovantes e confirme as regras de remarcação com a companhia ou empresa.","f":"cia"},
-{"c":"Volta ao Brasil","p":"Como contestar cobrança no cartão?","rc":"Contate o banco.","r":"Confira a fatura após a viagem e abra contestação pelos canais do emissor.","f":"banco"},
-{"c":"Volta ao Brasil","p":"Como relatar um problema ou golpe?","rc":"Registre e denuncie.","r":"Registre ocorrência, guarde as provas e acione o Consulado e as plataformas envolvidas.","f":"consul"}
-]}
+{
+ "itens": [
+  {
+   "id": "rg",
+   "c": "Documentação",
+   "p": "Posso entrar no Uruguai apenas com RG?",
+   "rc": "Em geral, sim, desde que o RG esteja em bom estado e seja recente.",
+   "r": "Brasileiros costumam entrar no Uruguai como turistas, por até 90 dias, só com RG ou passaporte. O RG tem que estar inteiro, com uma foto que realmente pareça com você, e ter sido emitido há no máximo 10 anos. A nova Carteira de Identidade Nacional também serve. Já o RG digital no celular não vale fora do Brasil.",
+   "e": [
+    "Levar um RG com mais de 10 anos de emissão",
+    "Confiar no RG digital"
+   ],
+   "n": "Olhe hoje a data de emissão do seu RG. Se tiver dúvida, leve também o passaporte.",
+   "f": "mig",
+   "pop": 1
+  },
+  {
+   "id": "passaporte",
+   "c": "Documentação",
+   "p": "Preciso de passaporte?",
+   "rc": "Se o seu RG está em dia, não é obrigatório.",
+   "r": "RG recente e em bom estado resolve. O passaporte entra como plano B para quem tem RG antigo, gasto ou com foto duvidosa, e deixa você mais tranquilo no controle migratório.",
+   "e": [
+    "Deixar o passaporte para a última semana"
+   ],
+   "n": "Se o seu RG te deixa em dúvida, comece o passaporte agora na Polícia Federal.",
+   "f": "pf"
+  },
+  {
+   "id": "cnh-entrada",
+   "c": "Documentação",
+   "p": "CNH vale como documento de entrada?",
+   "rc": "Não. A CNH serve para dirigir, não para entrar no país.",
+   "r": "Para cruzar a fronteira só valem RG ou passaporte. A CNH e as carteiras profissionais não contam como documento de viagem.",
+   "e": [
+    "Viajar só com a CNH"
+   ],
+   "n": "Leve RG recente ou passaporte, mesmo que você vá dirigir.",
+   "f": "mig"
+  },
+  {
+   "id": "menor",
+   "c": "Documentação",
+   "p": "Menor de idade precisa de autorização?",
+   "rc": "Depende de com quem a criança ou o adolescente vai viajar.",
+   "r": "Quando o menor viaja sem um dos pais ou com outra pessoa, costuma ser preciso ter uma autorização formal. Resolva isso antes de comprar a passagem, para não ser pego de surpresa no embarque.",
+   "e": [
+    "Descobrir a exigência na hora do embarque"
+   ],
+   "n": "Consulte a Polícia Federal sobre o modelo de autorização.",
+   "f": "pf"
+  },
+  {
+   "id": "rg-antigo",
+   "c": "Documentação",
+   "p": "RG antigo pode causar problemas?",
+   "rc": "Pode, sim. O limite que mais aparece é 10 anos de emissão.",
+   "r": "O RG brasileiro não traz data de validade, mas documentos emitidos há mais de 10 anos têm sido barrados na entrada. Se o seu é antigo, vale renovar ou levar o passaporte.",
+   "e": [
+    "Achar que RG sem validade impressa vale para sempre"
+   ],
+   "n": "Veja a data de emissão e escolha: renovar o RG ou usar o passaporte.",
+   "f": "mig"
+  },
+  {
+   "id": "danificado",
+   "c": "Documentação",
+   "p": "Documento danificado pode ser recusado?",
+   "rc": "Pode. O documento precisa estar inteiro e com foto legível.",
+   "r": "Se o RG está rasgado, descascando ou com a foto apagada, o agente pode recusar e pedir o passaporte. Documento gasto é motivo de dor de cabeça na fronteira.",
+   "e": [
+    "Levar RG desgastado"
+   ],
+   "n": "Se o seu está gasto, renove antes de viajar.",
+   "f": "mig"
+  },
+  {
+   "id": "perdi-doc",
+   "c": "Documentação",
+   "p": "O que fazer se perder meus documentos?",
+   "rc": "Registre a ocorrência e procure o consulado do Brasil.",
+   "r": "Se perder algum documento em Montevidéu, comece pela polícia local para registrar a ocorrência e depois procure o Consulado-Geral do Brasil. Ter fotos dos documentos no celular acelera tudo.",
+   "e": [
+    "Viajar sem nenhuma cópia dos documentos"
+   ],
+   "n": "Salve fotos do RG, do ingresso e das reservas num lugar que você acesse offline.",
+   "f": "itam"
+  },
+  {
+   "id": "wise",
+   "c": "Dinheiro e Wise",
+   "p": "Wise funciona no Uruguai?",
+   "rc": "Confirme no app antes de viajar e leve outro meio de pagamento.",
+   "r": "A Wise é uma conta internacional para pagar e converter moedas. Antes de contar com ela no Uruguai, abra o app e veja se o cartão e a moeda estão disponíveis, quais são as tarifas e os limites. Abra a conta com antecedência: pode haver verificação de identidade e o cartão precisa chegar até você.",
+   "e": [
+    "Abrir a conta na véspera",
+    "Depender só dela"
+   ],
+   "n": "Abra a conta, peça o cartão e faça uma compra de teste ainda no Brasil.",
+   "f": "wise",
+   "pop": 1
+  },
+  {
+   "id": "cartao-tudo",
+   "c": "Dinheiro e Wise",
+   "p": "Posso pagar tudo com cartão?",
+   "rc": "Não conte com isso. Tenha sempre uma segunda forma de pagar.",
+   "r": "Cartão resolve a maior parte do dia a dia, mas não depender só dele é regra de viagem. Leve o cartão do banco, uma conta internacional e um pouco de dinheiro local.",
+   "e": [
+    "Viajar com um cartão só"
+   ],
+   "n": "Monte seu kit: duas formas de pagar e uma reserva em dinheiro.",
+   "f": "bcb"
+  },
+  {
+   "id": "especie",
+   "c": "Dinheiro e Wise",
+   "p": "Vale a pena levar dinheiro em espécie?",
+   "rc": "Vale levar um pouco, só como reserva.",
+   "r": "Dinheiro vivo ajuda em imprevistos e nas primeiras despesas, mas não precisa exagerar. Existe um limite de valor para entrar e sair do país com dinheiro em espécie.",
+   "e": [
+    "Levar muito dinheiro vivo"
+   ],
+   "n": "Veja o limite na Receita Federal antes de decidir o valor.",
+   "f": "rf"
+  },
+  {
+   "id": "real",
+   "c": "Dinheiro e Wise",
+   "p": "Real é aceito em Montevidéu?",
+   "rc": "Não conte com isso.",
+   "r": "Mesmo que algum lugar aceite real, pergunte a cotação antes de pagar. O mais seguro é pagar em pesos uruguaios ou com cartão.",
+   "e": [
+    "Contar com o real no dia do jogo"
+   ],
+   "n": "Tenha cartão e alguns pesos uruguaios.",
+   "f": "uy"
+  },
+  {
+   "id": "pesos",
+   "c": "Dinheiro e Wise",
+   "p": "Devo levar pesos uruguaios?",
+   "rc": "Vale ter um pouco para os gastos pequenos.",
+   "r": "A moeda do Uruguai é o peso uruguaio. Um dinheirinho local ajuda no transporte, no lanche e nos imprevistos. Compare onde trocar antes de decidir.",
+   "e": [
+    "Trocar tudo sem comparar"
+   ],
+   "n": "Compare banco, casa de câmbio e conta internacional.",
+   "f": "bcb"
+  },
+  {
+   "id": "quanto-vivo",
+   "c": "Dinheiro e Wise",
+   "p": "Quanto dinheiro vivo faz sentido levar?",
+   "rc": "Não existe número mágico. Faça a conta do seu jeito.",
+   "r": "Liste o que você só consegue pagar em dinheiro (transporte, lanche, gorjeta, imprevistos), estime por dia e some uma reserva. Respeite o limite de entrada de dinheiro.",
+   "e": [
+    "Levar um valor 'por via das dúvidas'"
+   ],
+   "n": "Monte a lista por dia e some.",
+   "f": "rf"
+  },
+  {
+   "id": "cartao-falhou",
+   "c": "Dinheiro e Wise",
+   "p": "O que fazer se meu cartão falhar?",
+   "rc": "Ligue para o banco e use seu segundo meio de pagamento.",
+   "r": "Fale com o banco pelo app ou pelo telefone do verso do cartão e, enquanto resolve, pague com o segundo cartão ou com a conta internacional. Deixe esses contatos salvos antes de viajar.",
+   "e": [
+    "Ter um cartão só"
+   ],
+   "n": "Salve o telefone do banco e teste o cartão antes de sair.",
+   "f": "bcb"
+  },
+  {
+   "id": "onibus-imigracao",
+   "c": "Ônibus",
+   "p": "Como funciona a imigração para quem vai de ônibus?",
+   "rc": "A empresa avisa como funciona. Deixe o documento à mão.",
+   "r": "Na entrada por terra, o passageiro apresenta RG ou passaporte, e pode haver um formulário de migração. Pergunte à empresa como será a parada.",
+   "e": [
+    "Despachar o documento na mala"
+   ],
+   "n": "Deixe o documento original na bolsa de mão.",
+   "f": "mig",
+   "pop": 1
+  },
+  {
+   "id": "descer",
+   "c": "Ônibus",
+   "p": "Preciso descer do ônibus?",
+   "rc": "Pergunte à empresa.",
+   "r": "A empresa explica como será a parada na fronteira. Na dúvida, desça com documento e objetos de valor e não deixe nada importante no bagageiro.",
+   "e": [
+    "Deixar pertences de valor no bagageiro"
+   ],
+   "n": "Pergunte ao motorista ou à agência como será a parada.",
+   "f": "mig"
+  },
+  {
+   "id": "mao",
+   "c": "Ônibus",
+   "p": "O que não pode faltar na bagagem de mão?",
+   "rc": "Documento, ingresso, remédios, carregador e o essencial.",
+   "r": "Na bolsa de mão: documento original, ingresso, cartões, celular e carregador portátil, remédios, água, lanche e um casaco leve.",
+   "e": [
+    "Colocar documento e remédios na mala despachada"
+   ],
+   "n": "Faça uma lista e confira antes de sair.",
+   "f": "antt"
+  },
+  {
+   "id": "duracao",
+   "c": "Ônibus",
+   "p": "Quanto tempo demora a viagem?",
+   "rc": "Depende da cidade de onde você sai.",
+   "r": "O tempo muda conforme a cidade de saída, as paradas e a fronteira. Peça à empresa a previsão e some uma folga para não chegar em cima da hora.",
+   "e": [
+    "Planejar chegar de manhã no dia do jogo"
+   ],
+   "n": "O ideal é chegar um dia antes da final.",
+   "f": "antt"
+  },
+  {
+   "id": "comida",
+   "c": "Ônibus",
+   "p": "Posso levar comida e bebida?",
+   "rc": "Leve lanches industrializados e fechados.",
+   "r": "Prefira lanches industrializados, na embalagem, e evite alimentos frescos ou de origem animal até saber as regras da aduana.",
+   "e": [
+    "Levar alimentos frescos sem checar"
+   ],
+   "n": "Pergunte à empresa e veja as regras de aduana do Uruguai.",
+   "f": "uy"
+  },
+  {
+   "id": "internet",
+   "c": "Internet",
+   "p": "Como ter internet no Uruguai?",
+   "rc": "Com eSIM, chip local ou roaming.",
+   "r": "São três caminhos: eSIM, chip local ou roaming da sua operadora. Compare preço, franquia de dados e praticidade. Se escolher eSIM, instale antes de embarcar.",
+   "e": [
+    "Decidir só ao chegar"
+   ],
+   "n": "Escolha até uma semana antes da viagem.",
+   "f": "anatel"
+  },
+  {
+   "id": "esim",
+   "c": "Internet",
+   "p": "O que é eSIM?",
+   "rc": "É um chip digital instalado no celular.",
+   "r": "Em vez do chip de plástico, você instala um perfil da operadora no próprio aparelho. Compra, lê o QR code ou usa o app e ativa quando chegar.",
+   "e": [
+    "Comprar sem checar o aparelho"
+   ],
+   "n": "Veja se o seu celular aceita.",
+   "f": "anatel"
+  },
+  {
+   "id": "esim-aceita",
+   "c": "Internet",
+   "p": "Meu celular aceita eSIM?",
+   "rc": "Depende do modelo.",
+   "r": "Confira no manual ou no site do fabricante se o seu modelo aceita eSIM. O aparelho também precisa estar desbloqueado para outras operadoras.",
+   "e": [
+    "Comprar eSIM com celular bloqueado"
+   ],
+   "n": "Cheque o modelo e o desbloqueio hoje.",
+   "f": "anatel"
+  },
+  {
+   "id": "esim-vs-roaming",
+   "c": "Internet",
+   "p": "Vale mais a pena eSIM ou roaming?",
+   "rc": "Compare o custo total antes de decidir.",
+   "r": "Some preço, franquia de dados e a necessidade de manter seu número brasileiro ativo. Peça a tarifa de roaming à operadora e compare com um plano de eSIM.",
+   "e": [
+    "Ativar roaming sem saber a tarifa"
+   ],
+   "n": "Peça a tarifa à operadora e compare.",
+   "f": "anatel",
+   "pop": 1
+  },
+  {
+   "id": "esim-instalar",
+   "c": "Internet",
+   "p": "Posso instalar o eSIM antes da viagem?",
+   "rc": "Sim, e é o recomendado.",
+   "r": "Instale com Wi-Fi, teste antes de sair de casa e ative quando chegar, seguindo as instruções do provedor.",
+   "e": [
+    "Instalar só no destino, sem Wi-Fi"
+   ],
+   "n": "Instale até 3 dias antes.",
+   "f": "anatel"
+  },
+  {
+   "id": "sem-net",
+   "c": "Internet",
+   "p": "O que fazer se ficar sem internet?",
+   "rc": "Tenha mapas e ingresso offline e um ponto de encontro.",
+   "r": "Baixe o mapa da cidade e salve o ingresso e o endereço da hospedagem. Combine um ponto de encontro com o grupo e leve um carregador portátil.",
+   "e": [
+    "Depender 100% do celular"
+   ],
+   "n": "Baixe o mapa de Montevidéu agora.",
+   "f": "anatel"
+  },
+  {
+   "id": "cnh-dirigir",
+   "c": "Carro",
+   "p": "Posso dirigir no Uruguai com CNH brasileira?",
+   "rc": "A locadora pede a CNH física.",
+   "r": "Para alugar carro, a locadora costuma pedir a CNH física e o documento usado na entrada. Fora isso, pergunte à sua seguradora ou locadora se há algo a mais.",
+   "e": [
+    "Levar só a CNH digital"
+   ],
+   "n": "Leve a CNH física.",
+   "f": "uy"
+  },
+  {
+   "id": "cartaverde",
+   "c": "Carro",
+   "p": "Preciso de Carta Verde?",
+   "rc": "Sim. A Carta Verde é exigida de veículos brasileiros.",
+   "r": "A Carta Verde é um seguro de responsabilidade civil, obrigatório para veículos brasileiros no Uruguai, na Argentina e no Paraguai. Ela cobre danos a terceiros, não o seu carro nem as pessoas dentro dele, e não substitui o seguro do carro nem o seguro viagem.",
+   "e": [
+    "Achar que o seguro do carro já cobre",
+    "Contratar na véspera"
+   ],
+   "n": "Peça a Carta Verde à sua seguradora e salve a apólice.",
+   "f": "susep",
+   "pop": 1
+  },
+  {
+   "id": "docs-veiculo",
+   "c": "Carro",
+   "p": "Quais documentos do veículo devo levar?",
+   "rc": "Documento do veículo, identidade, CNH e a Carta Verde.",
+   "r": "O básico é o documento do veículo, seu documento de identidade, a CNH e o comprovante da Carta Verde. Leve os originais, e não só cópias.",
+   "e": [
+    "Levar só cópia"
+   ],
+   "n": "Separe tudo em uma pasta de fácil acesso.",
+   "f": "prf"
+  },
+  {
+   "id": "financiado",
+   "c": "Carro",
+   "p": "O carro financiado pode cruzar a fronteira?",
+   "rc": "Pergunte à financeira.",
+   "r": "Contratos de financiamento podem ter regras sobre sair do país, então fale com a financeira antes de planejar a viagem.",
+   "e": [
+    "Descobrir a restrição na fronteira"
+   ],
+   "n": "Peça a autorização por escrito.",
+   "f": "prf"
+  },
+  {
+   "id": "pedagio",
+   "c": "Carro",
+   "p": "Como funcionam os pedágios?",
+   "rc": "Leve pesos uruguaios e um cartão reserva.",
+   "r": "Para não ficar travado no pedágio, tenha pesos uruguaios e um cartão alternativo. Pergunte à locadora ou consulte o site oficial de transporte do Uruguai como pagar.",
+   "e": [
+    "Contar com um único meio de pagamento"
+   ],
+   "n": "Antes de sair, separe pesos e um segundo cartão.",
+   "f": "uy"
+  },
+  {
+   "id": "combustivel",
+   "c": "Carro",
+   "p": "Quanto dinheiro reservar para combustível?",
+   "rc": "Não existe valor fixo. Faça a conta com o seu carro.",
+   "r": "Some a distância de ida e volta, divida pelo consumo real do carro (km por litro) e multiplique pelo preço do litro. Some uma folga para trânsito e desvios.",
+   "e": [
+    "Calcular só a ida"
+   ],
+   "n": "Anote a distância da sua cidade a Montevidéu e o consumo real do carro.",
+   "f": "uy"
+  },
+  {
+   "id": "imig-carro",
+   "c": "Carro",
+   "p": "O que acontece na imigração de carro?",
+   "rc": "Tenha todos os documentos à mão.",
+   "r": "Leve documento de identidade, CNH, documento do veículo e Carta Verde, e siga as orientações dos agentes. Deixe tudo organizado para não procurar na hora.",
+   "e": [
+    "Deixar documentos no porta-malas"
+   ],
+   "n": "Deixe a pasta de documentos no banco do carona.",
+   "f": "uy"
+  },
+  {
+   "id": "chegar",
+   "c": "Dia do jogo",
+   "p": "Quanto antes chegar ao estádio?",
+   "rc": "Com bastante folga.",
+   "r": "O jogo está marcado para as 17h. Chegue cedo por causa das filas e das revistas, e combine o horário com o grupo.",
+   "e": [
+    "Chegar em cima da hora"
+   ],
+   "n": "Combine o horário com o grupo e acompanhe a Conmebol.",
+   "f": "conmebol"
+  },
+  {
+   "id": "levar",
+   "c": "Dia do jogo",
+   "p": "O que posso levar ao estádio?",
+   "rc": "Ingresso, documento, cartão e celular carregado.",
+   "r": "Leve o essencial: ingresso, documento, cartão e celular carregado. Bolsa grande e objetos desnecessários só atrapalham na entrada.",
+   "e": [
+    "Levar bolsas grandes"
+   ],
+   "n": "Consulte o regulamento da Conmebol antes de arrumar a mochila.",
+   "f": "conmebol"
+  },
+  {
+   "id": "proibido",
+   "c": "Dia do jogo",
+   "p": "O que normalmente é proibido?",
+   "rc": "Consulte o regulamento oficial antes de arrumar a mochila.",
+   "r": "A lista de itens proibidos é definida pela Conmebol e pelo estádio. Quanto menos coisa você levar, menos problema na entrada.",
+   "e": [
+    "Levar objetos sem checar a regra"
+   ],
+   "n": "Leia o regulamento antes de sair.",
+   "f": "conmebol"
+  },
+  {
+   "id": "voltar",
+   "c": "Dia do jogo",
+   "p": "Como voltar depois do jogo?",
+   "rc": "Defina o transporte antes de entrar.",
+   "r": "Combine com o grupo, prefira aplicativo ou táxi oficial e saia junto. Evite caminhar sozinho à noite e conte com saída lenta.",
+   "e": [
+    "Decidir o transporte na saída"
+   ],
+   "n": "Combine ponto e transporte antes do jogo.",
+   "f": "conmebol"
+  },
+  {
+   "id": "encontro",
+   "c": "Dia do jogo",
+   "p": "Como combinar ponto de encontro?",
+   "rc": "Escolha um ponto simples e um horário limite.",
+   "r": "Escolha um ponto fácil de achar e fora do fluxo de saída, defina um horário limite e tenha uma alternativa caso fique sem sinal.",
+   "e": [
+    "Combinar 'a gente se fala'"
+   ],
+   "n": "Mande o ponto e o horário por mensagem escrita.",
+   "f": "conmebol"
+  },
+  {
+   "id": "perdi-amigos",
+   "c": "Dia do jogo",
+   "p": "O que fazer se perder meus amigos?",
+   "rc": "Vá ao ponto combinado e avise por mensagem.",
+   "r": "Mande mensagem, vá ao ponto combinado e compartilhe sua localização. Não saia sozinho do entorno do estádio.",
+   "e": [
+    "Sair sozinho procurando"
+   ],
+   "n": "Compartilhe a localização com o grupo antes de entrar.",
+   "f": "conmebol"
+  },
+  {
+   "id": "seguro-mvd",
+   "c": "Segurança",
+   "p": "Montevidéu é segura para turistas?",
+   "rc": "Como em qualquer capital, com cuidados básicos.",
+   "r": "Não exiba objetos de valor, evite locais isolados à noite e guarde os documentos separados do celular.",
+   "e": [
+    "Exibir celular e dinheiro",
+    "Andar sozinho à noite"
+   ],
+   "n": "Defina o transporte noturno e um ponto de encontro.",
+   "f": "itam"
+  },
+  {
+   "id": "golpes",
+   "c": "Segurança",
+   "p": "Quais golpes são mais comuns?",
+   "rc": "Ingresso falso, reserva fora da plataforma e pagamento por fora.",
+   "r": "Os mais previsíveis para torcedor: ingresso vendido fora do canal oficial, hospedagem paga fora da plataforma e transferência para desconhecidos.",
+   "e": [
+    "Comprar ingresso de revendedor"
+   ],
+   "n": "Compre ingresso só na plataforma oficial.",
+   "f": "conmebol"
+  },
+  {
+   "id": "emergencia",
+   "c": "Segurança",
+   "p": "O que fazer em caso de emergência?",
+   "rc": "Salve os contatos oficiais antes de viajar.",
+   "r": "Pesquise o número de emergência do Uruguai no site oficial e salve, junto com o contato do Consulado-Geral do Brasil e o da assistência do seu seguro.",
+   "e": [
+    "Procurar os contatos só na hora do problema"
+   ],
+   "n": "Salve três contatos antes de embarcar.",
+   "f": "itam"
+  },
+  {
+   "id": "farmacia",
+   "c": "Segurança",
+   "p": "Como encontrar farmácias e hospitais?",
+   "rc": "Use o mapa e a assistência do seu seguro viagem.",
+   "r": "Procure no mapa e salve a farmácia e o hospital mais próximos da hospedagem. Em caso de dúvida, ligue para a assistência do seguro.",
+   "e": [
+    "Descobrir onde ir só na emergência"
+   ],
+   "n": "Salve a farmácia e o hospital próximos da hospedagem.",
+   "f": "uy"
+  }
+ ]
+}

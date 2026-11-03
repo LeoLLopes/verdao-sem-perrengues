@@ -1,0 +1,151 @@
+[
+ {
+  "id": "documento",
+  "icone": "📄",
+  "titulo": "Documento errado na fronteira",
+  "frase": "Não descubra na fronteira que seu documento não serve.",
+  "problema": "Você viaja horas, chega ao controle migratório e o agente pede outro documento. Quem leva só a CNH, o RG digital ou um RG velho e gasto corre o risco de ficar de fora da própria viagem.",
+  "evitar": [
+   "Leve RG emitido há no máximo 10 anos, em bom estado e com foto que se pareça com você, ou o passaporte.",
+   "Não use como documento principal: CNH, RG digital no celular ou carteiras profissionais (OAB, CRM etc.).",
+   "RG rasgado, descascado ou com foto apagada pode ser recusado. Se for o seu caso, renove antes.",
+   "RG muito antigo: os emitidos há mais de 10 anos têm sido barrados. Na dúvida, leve o passaporte.",
+   "Antes de sair de casa: confira seu RG hoje, salve foto dos documentos no celular e deixe o passaporte à mão, se tiver."
+  ],
+  "f": "mig",
+  "rf": "moch",
+  "st": "ref"
+ },
+ {
+  "id": "cartao",
+  "icone": "💳",
+  "titulo": "Seu cartão ser recusado longe de casa",
+  "frase": "Cartão recusado no balcão, longe de casa e sem plano B. Esse é o perrengue que ninguém quer viver.",
+  "problema": "Você está no caixa, com a fila atrás de você, e o cartão do seu banco é recusado. Sem dinheiro vivo e sem uma segunda opção, você fica parado: sem jantar, sem pagar o transporte de volta, sem saída. Cartões de banco tradicionais podem ser bloqueados por segurança em compras no exterior, e resolver isso por telefone, de madrugada, com o celular quase sem bateria, é um pesadelo.",
+  "evitar": [
+   "Nunca viaje com um cartão só. Leve pelo menos duas formas de pagamento, guardadas em lugares diferentes.",
+   "Libere o uso internacional no app do banco e avise a viagem antes de sair.",
+   "Faça uma compra de teste ainda no Brasil, não no Uruguai.",
+   "Salve o telefone do banco e o passo a passo de bloqueio no celular.",
+   "Leve um pouco de dinheiro local para as primeiras despesas."
+  ],
+  "extra": {
+   "titulo": "💡 Recomendação para a viagem",
+   "texto": "Levar uma segunda forma de pagamento é segurança e planejamento: se o cartão do banco for bloqueado ou recusado, você não fica na mão. Uma conta internacional, como a Wise, funciona como esse plano B, independente do seu banco. Peça com antecedência: pode haver verificação de identidade e o cartão precisa chegar até você.",
+   "cta": "👉 Peça seu cartão em segundos",
+   "href": "/conta-internacional"
+  },
+  "f": "bcb",
+  "st": "g"
+ },
+ {
+  "id": "internet",
+  "icone": "📶",
+  "titulo": "Chegar sem internet",
+  "frase": "Perder internet logo na chegada pode estragar a viagem.",
+  "problema": "Sem internet você não chama carro por aplicativo, não abre o mapa, não avisa a família no WhatsApp, não encontra a torcida e não consulta as informações do estádio. Tudo isso no primeiro dia, numa cidade que você não conhece.",
+  "evitar": [
+   "Instale o eSIM antes de embarcar, com Wi-Fi, e teste.",
+   "Se preferir roaming, descubra a tarifa da sua operadora antes de ativar.",
+   "Baixe o mapa de Montevidéu offline e salve a rota até o estádio.",
+   "Salve ingresso e endereço da hospedagem também em print.",
+   "Combine o ponto de encontro com o grupo antes, por mensagem."
+  ],
+  "esim": true,
+  "f": "anatel",
+  "st": "g"
+ },
+ {
+  "id": "gasolina",
+  "icone": "⛽",
+  "titulo": "Gasolina mais cara do que você imaginava",
+  "frase": "Muita gente calcula a distância e esquece os custos.",
+  "problema": "A conta da viagem de carro não é só gasolina: tem pedágio, estacionamento, deslocamento na cidade e o combustível da volta. Quem só soma quilômetros leva susto no caixa.",
+  "evitar": [
+   "Calcule: distância total (ida e volta) ÷ consumo real do carro × preço do litro.",
+   "Inclua pedágios e estacionamento na conta.",
+   "Some os deslocamentos locais, como ir e voltar do estádio.",
+   "Deixe uma folga para desvios e trânsito."
+  ],
+  "aviso": "Estamos levantando os custos atualizados e disponibilizaremos a calculadora em breve.",
+  "cta": {
+   "texto": "Ver a calculadora em atualização",
+   "href": "/custos"
+  },
+  "f": "uy",
+  "st": "nao"
+ },
+ {
+  "id": "tomada",
+  "icone": "🔌",
+  "titulo": "Não conseguir carregar o celular",
+  "frase": "Ninguém lembra disso até chegar ao hotel.",
+  "problema": "O celular é ingresso, mapa, banco e contato do grupo. Chegar com 10% de bateria e descobrir que o carregador não encaixa na tomada é um dos perrengues mais bobos e mais comuns.",
+  "evitar": [
+   "Confira o padrão de tomada do Uruguai antes de comprar o adaptador.",
+   "Leve um adaptador universal.",
+   "Leve um power bank carregado para o dia do jogo.",
+   "Leve um cabo reserva.",
+   "Carregue tudo à noite e saia com bateria cheia."
+  ],
+  "kit": [
+   {
+    "nome": "Adaptador universal",
+    "url": "https://meli.la/2t3YRva"
+   },
+   {
+    "nome": "Power bank",
+    "url": null
+   },
+   {
+    "nome": "Cabo reserva",
+    "url": null
+   },
+   {
+    "nome": "Porta-documentos",
+    "url": null
+   }
+  ],
+  "f": "uy",
+  "st": "nao"
+ },
+ {
+  "id": "carta-verde",
+  "icone": "🚗",
+  "titulo": "Seguro Carta Verde",
+  "frase": "Vai de carro para o Uruguai? Não esqueça da Carta Verde.",
+  "problema": "Muita gente acha que o seguro do carro ou o seguro viagem cobrem o Uruguai. Não cobrem: a Carta Verde é um seguro de responsabilidade civil à parte, obrigatório para veículos brasileiros no Uruguai. Deixar para a véspera é pedir problema.",
+  "evitar": [
+   "Peça a Carta Verde à sua seguradora com antecedência.",
+   "Salve a apólice no celular e leve uma cópia impressa.",
+   "Entenda o que ela cobre: danos a terceiros, não o seu carro nem os ocupantes.",
+   "Leve documento do veículo, CNH física e documento de identidade.",
+   "Se o carro for financiado, avise a financeira antes."
+  ],
+  "extra": {
+   "titulo": "💡 Recomendação para a viagem",
+   "texto": "A HDI Seguros oferece a Carta Verde para quem vai de carro ao Uruguai. Veja as condições e contrate com antecedência.",
+   "cta": "Conhecer a Carta Verde da HDI",
+   "href": "https://www.hdiseguros.com.br/produtos/automovel/carta-verde",
+   "externo": true
+  },
+  "f": "susep",
+  "rf": "tela",
+  "st": "ref"
+ },
+ {
+  "id": "amigos",
+  "icone": "🏟️",
+  "titulo": "Perder seus amigos após o jogo",
+  "frase": "Depois do apito final, ninguém acha ninguém.",
+  "problema": "Estádio lotado, celular com pouca bateria, internet sobrecarregada e todo mundo saindo ao mesmo tempo. Sem combinar nada antes, o grupo se perde.",
+  "evitar": [
+   "Combine um ponto de encontro fácil e um horário limite, por mensagem escrita, antes de entrar.",
+   "Chegue ao jogo com bateria cheia e leve um power bank.",
+   "Não conte com a internet: com muita gente por perto ela pode ficar lenta.",
+   "Tenha um plano B: um segundo ponto de encontro e o endereço da hospedagem anotado.",
+   "Se se perder, vá ao ponto combinado e não saia sozinho."
+  ],
+  "st": "g"
+ }
+]

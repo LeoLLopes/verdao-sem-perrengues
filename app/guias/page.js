@@ -1,6 +1,8 @@
-import g from"../../data/guias.json";
+import g from"../../data/guias.json";import Fonte from"../../components/Fonte";import EsimAiralo from"../../components/EsimAiralo";import ContaInternacional from"../../components/ContaInternacional";import AbrirPorHash from"../../components/AbrirPorHash";
 export const metadata={title:"Guias"};
-export default function Guias(){return(<><h1 className="h1">Guias</h1>
-<div className="mt-3 space-y-3">{g.map(x=>(<details key={x.slug} id={x.slug} className="card"><summary className="min-h-[44px] cursor-pointer font-semibold text-verde-escuro">{x.titulo}<span className="block text-sm font-normal text-stone-600">{x.resumo}</span></summary>
-<ul className="mt-3 list-disc space-y-1 pl-5">{x.passos.map(p=><li key={p}>{p}</li>)}</ul>
-<p className="mt-3 text-xs text-stone-600">{x.verificado?`Verificado em ${x.verificado}. `:"Ainda não verificado em fonte oficial. "}{x.fonte&&<a className="underline" href={x.fonte}>Fonte oficial</a>}</p></details>))}</div></>)}
+const Bloco=({e,t,l,num})=>(<div className="mt-5"><h3 className="font-bold text-verde-escuro">{e} {t}</h3>{num?<ol className="mt-1 list-decimal space-y-1 pl-5">{l.map(x=><li key={x}>{x}</li>)}</ol>:<ul className="mt-1 list-disc space-y-1 pl-5">{l.map(x=><li key={x}>{x}</li>)}</ul>}</div>);
+export default function Guias(){return(<><AbrirPorHash/><h1 className="h1">Guias</h1>
+<p className="mt-1 text-stone-600">Passo a passo para quem nunca foi ao Uruguai. Cada guia mostra a fonte consultada.</p>
+<div className="mt-3 space-y-3">{g.map(x=>(<details key={x.slug} id={x.slug} className="card scroll-mt-20"><summary className="flex min-h-[56px] cursor-pointer list-none items-center gap-3 font-semibold text-verde-escuro"><span aria-hidden className="grid h-12 w-12 place-items-center rounded-2xl bg-verde-claro text-2xl">{x.icone}</span><span className="text-lg">{x.titulo}</span></summary>
+<Bloco e="💡" t="O que você precisa saber" l={x.saber}/><Bloco e="🛠️" t="O que fazer" l={x.fazer}/><Bloco e="⚠️" t="Erros mais comuns" l={x.erros}/><Bloco e="➡️" t="Próximos passos" l={x.proximos} num/>
+{x.slug==="internet"&&<div className="mt-5"><EsimAiralo/></div>}{x.slug==="dinheiro"&&<div className="mt-5"><ContaInternacional/></div>}<div className="mt-5 border-t border-linha pt-3"><Fonte f={x.f} completo/></div></details>))}</div></>)}

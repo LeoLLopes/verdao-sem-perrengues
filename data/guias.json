@@ -1,8 +1,217 @@
 [
-{"slug":"documentos","titulo":"Documentos","resumo":"O que conferir antes de sair.","passos":["Verifique qual documento é aceito para brasileiros e a validade exigida.","Leve cópia digital e impressa do documento, do ingresso e da reserva.","Confirme regras específicas para menores de idade."],"fonte":null,"verificado":null},
-{"slug":"carro","titulo":"Viagem de carro e pedágios","resumo":"Documentos do veículo, seguro, pedágio e combustível.","passos":["Confira documentos do motorista e do veículo.","Verifique o seguro exigido no Uruguai.","Descubra como pagar pedágios e combustível.","Planeje paradas e saia com folga."],"fonte":null,"verificado":null},
-{"slug":"dinheiro","titulo":"Dinheiro, cartão e Wise","resumo":"Como pagar sem susto.","passos":["Tenha pelo menos duas formas de pagar.","Compare taxas, IOF e cotação.","Avise o banco e teste o cartão antes de viajar."],"fonte":null,"verificado":null},
-{"slug":"internet","titulo":"Chip, eSIM e internet","resumo":"Como não ficar sem conexão.","passos":["Compare eSIM e roaming.","Confirme se o seu celular aceita eSIM.","Instale e teste antes de embarcar."],"fonte":null,"verificado":null},
-{"slug":"seguranca","titulo":"Segurança","resumo":"Cuidados práticos, sem alarmismo.","passos":["Guarde documentos e cartões em locais separados.","À noite, prefira transporte por aplicativo ou táxi oficial.","Evite exibir celular e dinheiro em locais cheios."],"fonte":null,"verificado":null},
-{"slug":"hospedagem","titulo":"Hospedagem","resumo":"Como escolher onde ficar.","passos":["Reserve com cancelamento gratuito se puder.","Confira localização, avaliações recentes e regras de check-in.","Salve o endereço offline."],"fonte":null,"verificado":null}
+ {
+  "slug": "documentos",
+  "icone": "📄",
+  "titulo": "Documentos",
+  "f": "mig",
+  "rf": "moch",
+  "st": "ref",
+  "saber": [
+   "Brasileiros entram no Uruguai como turistas, por até 90 dias, com RG ou passaporte.",
+   "O RG deve ter sido emitido há no máximo 10 anos, estar em bom estado e ter foto reconhecível.",
+   "CNH não vale para entrada e o RG digital não vale fora do Brasil."
+  ],
+  "fazer": [
+   "Confira a data de emissão e o estado do seu RG.",
+   "Se tiver dúvida, leve o passaporte também.",
+   "Salve cópias digitais dos documentos para usar offline."
+  ],
+  "erros": [
+   "Descobrir o problema no embarque",
+   "Viajar só com a CNH",
+   "Confiar no RG digital"
+  ],
+  "proximos": [
+   "Hoje: conferir seu RG",
+   "Esta semana: decidir se precisa do passaporte",
+   "Antes de embarcar: documentos e cópias separados"
+  ]
+ },
+ {
+  "slug": "onibus",
+  "icone": "🚌",
+  "titulo": "Ônibus",
+  "f": "antt",
+  "st": "nao",
+  "saber": [
+   "A empresa informa o procedimento de fronteira.",
+   "A duração depende da cidade de saída. Confirme com a empresa.",
+   "Mantenha o documento original à mão, não na mala."
+  ],
+  "fazer": [
+   "Compre apenas nos canais oficiais da empresa.",
+   "Pergunte à empresa como será a parada de fronteira.",
+   "Leve lanche industrializado, água, casaco e carregador portátil."
+  ],
+  "erros": [
+   "Despachar o documento na mala",
+   "Chegar no dia do jogo sem descanso",
+   "Comprar de revendedor sem comprovante"
+  ],
+  "proximos": [
+   "Reserve a passagem de ida e volta",
+   "Peça à empresa o procedimento de fronteira",
+   "Planeje chegar um dia antes"
+  ]
+ },
+ {
+  "slug": "carro",
+  "icone": "🚗",
+  "titulo": "Carro e fronteira",
+  "f": "susep",
+  "rf": "tela",
+  "st": "ref",
+  "saber": [
+   "A Carta Verde é obrigatória para veículos brasileiros no Uruguai.",
+   "Ela cobre danos a terceiros e não substitui o seguro auto nem o seguro viagem."
+  ],
+  "fazer": [
+   "Contrate a Carta Verde com sua seguradora.",
+   "Separe documento do veículo, CNH física, documento de identidade e apólice.",
+   "Calcule o combustível: distância total ÷ consumo × preço do litro."
+  ],
+  "erros": [
+   "Achar que o seguro auto cobre",
+   "Levar um único meio de pagamento",
+   "Dirigir cansado na volta"
+  ],
+  "proximos": [
+   "Peça a Carta Verde esta semana",
+   "Pergunte à financeira se o carro for financiado",
+   "Monte a pasta de documentos"
+  ]
+ },
+ {
+  "slug": "dinheiro",
+  "icone": "💳",
+  "titulo": "Dinheiro, cartão e Wise",
+  "f": "bcb",
+  "st": "nao",
+  "saber": [
+   "A moeda do Uruguai é o peso uruguaio.",
+   "Existe limite para entrada e saída de dinheiro. Confirme na Receita Federal."
+  ],
+  "fazer": [
+   "Leve dois meios de pagamento e um pouco de dinheiro local.",
+   "Faça uma compra de teste com o cartão antes de viajar.",
+   "Abra a conta Wise com antecedência, se for usar."
+  ],
+  "erros": [
+   "Levar um único cartão",
+   "Abrir conta na véspera",
+   "Trocar dinheiro sem comparar"
+  ],
+  "proximos": [
+   "Teste o cartão",
+   "Compare como levar dinheiro",
+   "Salve o telefone do banco"
+  ]
+ },
+ {
+  "slug": "internet",
+  "icone": "📶",
+  "titulo": "Internet, chip e eSIM",
+  "f": "anatel",
+  "st": "g",
+  "saber": [
+   "eSIM é um chip digital instalado no celular, sem peça física.",
+   "O celular precisa aceitar eSIM e estar desbloqueado.",
+   "Compare eSIM e roaming pelo custo total."
+  ],
+  "fazer": [
+   "Confira se o seu modelo aceita eSIM.",
+   "Instale com Wi-Fi, antes de embarcar.",
+   "Baixe mapas e ingresso para usar offline."
+  ],
+  "erros": [
+   "Instalar só no destino",
+   "Ativar roaming sem saber a tarifa",
+   "Depender 100% do celular"
+  ],
+  "proximos": [
+   "Hoje: ver se seu celular aceita eSIM",
+   "Esta semana: comparar eSIM e roaming",
+   "Até 3 dias antes: instalar e testar"
+  ]
+ },
+ {
+  "slug": "hospedagem",
+  "icone": "🏨",
+  "titulo": "Hospedagem",
+  "f": "tur",
+  "st": "g",
+  "saber": [
+   "Não há regra oficial envolvida. A escolha é prática.",
+   "Localização e transporte pesam mais do que desconto.",
+   "Cancelamento gratuito reduz o risco."
+  ],
+  "fazer": [
+   "Compare localização, transporte e avaliações recentes.",
+   "Reserve com cancelamento gratuito.",
+   "Salve o endereço offline e peça a confirmação por escrito."
+  ],
+  "erros": [
+   "Pagar por fora da plataforma",
+   "Ignorar a distância até o estádio",
+   "Reservar sem política de cancelamento clara"
+  ],
+  "proximos": [
+   "Reserve com cancelamento gratuito",
+   "Salve endereço e contato do anfitrião",
+   "Combine com o grupo como chegar"
+  ]
+ },
+ {
+  "slug": "seguranca",
+  "icone": "🛡️",
+  "titulo": "Segurança",
+  "f": "itam",
+  "st": "nao",
+  "saber": [
+   "Os riscos mais previsíveis são ingresso falso e pagamento por fora."
+  ],
+  "fazer": [
+   "Salve três contatos offline: emergência, consulado e seguro viagem.",
+   "Guarde documentos separados do celular.",
+   "Evite exibir celular e dinheiro e andar sozinho à noite."
+  ],
+  "erros": [
+   "Comprar ingresso de revendedor",
+   "Andar sozinho à noite",
+   "Guardar tudo no mesmo bolso"
+  ],
+  "proximos": [
+   "Pesquise e salve os contatos oficiais",
+   "Defina como voltar à noite",
+   "Avalie um seguro viagem"
+  ]
+ },
+ {
+  "slug": "dia-do-jogo",
+  "icone": "🏟️",
+  "titulo": "Dia do jogo",
+  "f": "conmebol",
+  "rf": "eldia",
+  "st": "ref",
+  "saber": [
+   "A final é no sábado, 28 de novembro, no Estádio Centenário. O jogo é às 17h, conforme o anúncio da Conmebol.",
+   "As vendas de ingressos acontecem de 06/11 a 10/11, pelos canais oficiais da Conmebol.",
+   "A categoria 3 é exclusiva das torcidas de Palmeiras e Estudiantes, com venda organizada com os clubes."
+  ],
+  "fazer": [
+   "Compre ingresso só pela plataforma oficial da Conmebol.",
+   "Combine ponto de encontro e horário com o grupo.",
+   "Defina como voltar antes de entrar."
+  ],
+  "erros": [
+   "Comprar ingresso de revendedor",
+   "Chegar em cima da hora",
+   "Combinar o encontro sem horário limite"
+  ],
+  "proximos": [
+   "Confirme datas e horários no site da Conmebol",
+   "Compre seu ingresso entre 06/11 e 10/11",
+   "Combine o plano do grupo"
+  ]
+ }
 ]

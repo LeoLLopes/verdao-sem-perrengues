@@ -1,4 +1,35 @@
-{"_ajuda":"A chave é o id do item em checklist.json. parceiros = ids de parceiros.json. Sem url ativa, o card mostra só o passo a passo.",
-"esim":{"icone":"📶","titulo":"Chegue com internet funcionando","texto":"Instale o eSIM antes de embarcar e evite surpresa de roaming.","cta":"Ver planos de eSIM","passos":["Confirme se o seu celular aceita eSIM","Compre e instale com Wi-Fi","Teste antes de sair de casa"],"parceiros":["esim-1","esim-2"],"prazoDias":7},
-"wise":{"icone":"💳","titulo":"Leve um jeito barato de pagar","texto":"Abra a conta com antecedência: pode haver verificação de identidade. Leve também um segundo cartão.","cta":"Abrir conta","passos":["Compare taxas e limites","Abra pelo app ou site oficial","Teste o cartão antes de viajar"],"parceiros":["wise-1","wise-2"],"prazoDias":14},
-"hosp":{"icone":"🏨","titulo":"Garanta onde dormir","texto":"Hospedagem perto da final esgota primeiro. Prefira cancelamento gratuito.","cta":"Ver hospedagens","passos":["Compare localização e avaliações recentes","Prefira cancelamento gratuito","Pague só pela plataforma"],"parceiros":["hosp-1","hosp-2"],"prazoDias":30}}
+{
+ "_ajuda": "A chave é o id do item em checklist.json. parceiros = ids de parceiros.json. Sem url ativa, o card mostra só o passo a passo.",
+ "esim": {
+  "icone": "📶",
+  "titulo": "Chegue com internet funcionando",
+  "texto": "Instale o eSIM antes de embarcar e evite surpresa de roaming.",
+  "cta": "Ver planos de eSIM",
+  "passos": [
+   "Confirme se o seu celular aceita eSIM",
+   "Compre e instale com Wi-Fi",
+   "Teste antes de sair de casa"
+  ],
+  "parceiros": [
+   "esim-1",
+   "esim-2"
+  ],
+  "prazoDias": 7
+ },
+ "hosp": {
+  "icone": "🏨",
+  "titulo": "Garanta onde dormir",
+  "texto": "Hospedagem perto da final esgota primeiro. Prefira cancelamento gratuito.",
+  "cta": "Ver hospedagens",
+  "passos": [
+   "Compare localização e avaliações recentes",
+   "Prefira cancelamento gratuito",
+   "Pague só pela plataforma"
+  ],
+  "parceiros": [
+   "hosp-1",
+   "hosp-2"
+  ],
+  "prazoDias": 20
+ }
+}
